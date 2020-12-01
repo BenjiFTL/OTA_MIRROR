@@ -3,7 +3,7 @@
 #include <DNSServer.h>
 #if defined(ESP8266)
 #include <ESP8266WebServer.h>
-#include <ESP8266WiFi.h>
+//#include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
 #define VARIANT "esp8266"
 #else
@@ -19,7 +19,7 @@
 #define USE_SERIAL Serial
 
 #define CURRENT_VERSION VERSION
-#define CLOUD_FUNCTION_URL "http://us-central1-gcloud-ota-update.cloudfunctions.net/getDownloadUrl"
+#define CLOUD_FUNCTION_URL "http://us-central1-esp8266-ota-update.cloudfunctions.net/getDownloadUrl"
 
 WiFiClient client;
 #if defined(ESP8266)
