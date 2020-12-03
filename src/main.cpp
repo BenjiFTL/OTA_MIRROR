@@ -180,7 +180,7 @@ void setup()
   delay(3000);
   Serial.println("\n Starting");
   // Setup Wifi Manager
-  String version = String("<p>Current Version - v") + String(CURRENT_VERSION) + String("</p>");
+  String version = String("<p>Current Version - ") + String(CURRENT_VERSION) + String("</p>");
   USE_SERIAL.println(version);
   
   WiFiManager wm;
