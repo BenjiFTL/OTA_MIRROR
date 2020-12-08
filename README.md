@@ -1,8 +1,3 @@
-# Serverless Continuous Integration and OTA update flow using Google Cloud Build and Arduino
-
-How to build your firmware continuously in the cloud and sent to your devices automatically.
-
-Blog post with details: https://medium.com/google-cloud/serverless-continuous-integration-and-ota-update-flow-using-google-cloud-build-and-arduino-d5e1cda504bf
 
 ### Setup Google cloud tools and project
 
@@ -52,7 +47,7 @@ To deploy to the board you can use the “Build” and “Upload” buttons on P
 
 ### References
 
-*  https://dzone.com/articles/how-to-approach-ota-updates-for-iot
+* https://dzone.com/articles/how-to-approach-ota-updates-for-iot
 * https://cloud.google.com/functions/docs/writing
 * https://cloud.google.com/functions/docs/tutorials/storage
 * http://docs.platformio.org/en/latest
