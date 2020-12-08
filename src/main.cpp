@@ -19,8 +19,7 @@
 #define USE_SERIAL Serial
 
 #define CURRENT_VERSION VERSION
-//#define CLOUD_FUNCTION_URL "http://us-central1-gcloud-ota-update.cloudfunctions.net/getDownloadUrl"
-#define CLOUD_FUNCTION_URL "http://us-central1-esp8266-ota-update.cloudfunctions.net/getDownloadUrl"
+#define CLOUD_FUNCTION_URL "http://us-central1-YOUR_GCLOUD_PROJECT_NAME_HERE.cloudfunctions.net/getDownloadUrl"
 
 WiFiClient client;
 #if defined(ESP8266)
